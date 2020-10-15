@@ -1,0 +1,14 @@
+{
+  "$schema": "https://puremourning.github.io/vimspector/schema/vimspector.schema.json",
+  "configurations": {
+    "Run": {
+      "adapter": "CodeLLDB",
+      "configuration": {
+        "request": "launch",
+        "program": "${workspaceRoot}/build/Milton.app/Contents/MacOS/Milton",
+        "cwd": "${workspaceRoot}",
+        "expression": "native"
+      }
+    }
+  }
+}
